@@ -72,6 +72,9 @@ export function getLineChartOption() {
 // 4. 散点图
 export function getScatterChartOption() {
   return {
+    title: {
+      text: '散点图示例',
+    },
     xAxis: {},
     yAxis: {},
     series: [
@@ -91,6 +94,9 @@ export function getScatterChartOption() {
 } // 5. 雷达图
 export function getRadarChartOption() {
   return {
+    title: {
+      text: '雷达图示例',
+    },
     radar: {
       indicator: [
         { name: '品质', max: 6500 },
@@ -117,6 +123,9 @@ export function getRadarChartOption() {
 // 6. 漏斗图
 export function getFunnelChartOption() {
   return {
+    title: {
+      text: '漏斗图示例',
+    },
     series: [
       {
         type: 'funnel',
@@ -162,6 +171,9 @@ export function getFunnelChartOption() {
 // 8. 烛台图（K线图）
 export function getCandlestickChartOption() {
   return {
+    title: {
+      text: '烛台图示例',
+    },
     xAxis: {
       data: ['2017-10-24', '2017-10-25', '2017-10-26', '2017-10-27'],
     },
@@ -181,6 +193,9 @@ export function getCandlestickChartOption() {
 // 9. 仪表盘
 export function getGaugeChartOption() {
   return {
+    title: {
+      text: '仪表盘示例',
+    },
     series: [
       {
         type: 'gauge',
@@ -208,6 +223,9 @@ export function getGaugeChartOption() {
 // 10. 旭日图
 export function getSunburstChartOption() {
   return {
+    title: {
+      text: '旭日图示例',
+    },
     series: {
       type: 'sunburst',
       data: [

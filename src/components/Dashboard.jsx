@@ -8,6 +8,11 @@ const { Option } = Select;
 function Dashboard({ createdCharts }) {
   const [chartType, setChartType] = useState('bar');
 
+  console.log(
+    '%c [  ]-11',
+    'font-size:13px; background:pink; color:#bf2c9f;',
+    createdCharts
+  );
   return (
     <>
       {/* 根据选择的图表类型渲染图表 */}
@@ -18,7 +23,7 @@ function Dashboard({ createdCharts }) {
             <div key={index} className="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
               <ChartCard
                 key={index}
-                title={`图表 ${index + 1}`} // 您可以设置适当的标题
+                title={chartConfig.title.text} // 您可以设置适当的标题
                 chartConfig={chartConfig}
               />
             </div>
