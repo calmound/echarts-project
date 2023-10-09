@@ -1,0 +1,28 @@
+/* ChartConfigDrawer.css */
+
+/* 调整 Drawer 的样式 */
+.react-drawer-drawer {
+  background-color: #fff; /* 背景色 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  border-left: 1px solid #ccc; /* 左边框 */
+  border-top: 1px solid #ccc; /* 上边框 */
+}
+
+/* 调整关闭按钮的样式 */
+.drawer-close-button {
+  background-color: #f00; /* 按钮背景色 */
+  color: #fff; /* 按钮文字颜色 */
+  border: none; /* 移除按钮边框 */
+  padding: 8px 16px; /* 按钮内边距 */
+  cursor: pointer; /* 鼠标指针样式 */
+  border-radius: 4px; /* 按钮圆角 */
+}
+
+/* 悬停样式 */
+.drawer-close-button:hover {
+  background-color: #d00; /* 鼠标悬停时的背景色 */
+}
+
+.custom-drawer {
+  width: 5s00px !important; /* 设置宽度为 400px（根据需求调整），使用 !important 提高优先级 */
+}
